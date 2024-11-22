@@ -1,1 +1,6 @@
-
+@software{cryslatt,
+  author = {Sarcinella, Fulvio},
+  title = {cryslatt},
+  url = {https://github.com/ful-sar/cryslatt},
+  year = {2024}
+}
