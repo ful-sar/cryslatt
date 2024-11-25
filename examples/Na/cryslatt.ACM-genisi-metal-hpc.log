@@ -1,0 +1,1621 @@
+--------------------------CRYSLATT------------------------------
+Fri Nov 22 01:13:01 PM CET 2024
+cryslatt       
+ACM-genisi-metal-hpc
+reflat, latytp:    4.21400000 ,  A2
+
+Minimization Procedure: yes 
+LargeLattice Guess: no
+Initial Guess using:  4.0033000000 4.214000000 4.635400000
+run_lat_range: storemin.ACM-genisi-metal-hpc.dat,no
+
+>>>>> lat = 4.0033000000 A
+run_at_lat: 4.0033000000,4.0033000000,no,,
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.0033000000
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i input --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 13:13:01
+
+
+Program:  crystal
+Input file:  input
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8555402539
+ HF-exchange energy:    -14.0380864954
+ W_inf energy:          -23.4710702793
+ W1_inf energy:          28.6518580500
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4860741969
+ Exchange-correlation energy:   -14.5241606922
+ Total energy:                 -162.3416144507
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy vol cycles exx: -162.3416144507 32.079265 10 -14.0380864954
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.0033000000/ATOM
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i inputatom --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 13:20:47
+
+
+Program:  crystal
+Input file:  inputatom
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8519867681
+ HF-exchange energy:    -14.0160169643
+ W_inf energy:          -23.2986410625
+ W1_inf energy:          28.4709361892
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4704182936
+ Exchange-correlation energy:   -14.4864352579
+ Total energy:                 -162.3224050618
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy cycles exx: -162.3224050618 6 -14.0160169643
+ vol= 32.079265 A^3   E=  -0.01920939 au  cycles= 10
+ lat = 4.0033000000  vol= 32.079265 A^3   E=  -0.01920939 au
+
+>>>>> lat = 4.214000000 A
+run_at_lat: 4.214000000,4.214000000,no,4.0033000000,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.0033000000
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.0033000000 as starting guess
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.214000000
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i input --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 13:22:07
+
+
+Program:  crystal
+Input file:  input
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8583716471
+ HF-exchange energy:    -14.0292527185
+ W_inf energy:          -23.4442492233
+ W1_inf energy:          28.6177476472
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4845522288
+ Exchange-correlation energy:   -14.5138049472
+ Total energy:                 -162.3429238759
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy vol cycles exx: -162.3429238759 37.415676 5 -14.0292527185
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.214000000/ATOM
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i inputatom --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 13:26:23
+
+
+Program:  crystal
+Input file:  inputatom
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8518787909
+ HF-exchange energy:    -14.0160113416
+ W_inf energy:          -23.2985897367
+ W1_inf energy:          28.4709646932
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4704111984
+ Exchange-correlation energy:   -14.4864225400
+ Total energy:                 -162.3222899892
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy cycles exx: -162.3222899892 6 -14.0160113416
+ vol= 37.415676 A^3   E=  -0.02063389 au  cycles= 5
+ lat = 4.214000000  vol= 37.415676 A^3   E=  -0.02063389 au
+
+>>>>> lat = 4.635400000 A
+run_at_lat: 4.635400000,4.635400000,no,4.214000000,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.214000000
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i input --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 13:27:43
+
+
+Program:  crystal
+Input file:  input
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+already done
+
+ SCF energy:           -161.8586257355
+ HF-exchange energy:    -14.0150664067
+ W_inf energy:          -23.4022606477
+ W1_inf energy:          28.5670132169
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4821444034
+ Exchange-correlation energy:   -14.4972108101
+ Total energy:                 -162.3407701389
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy vol cycles exx: -162.3407701389 49.800265 6 -14.0150664067
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/ATOM
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i inputatom --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 13:27:44
+
+
+Program:  crystal
+Input file:  inputatom
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+already done
+
+ SCF energy:           -161.8511674650
+ HF-exchange energy:    -14.0164340026
+ W_inf energy:          -23.2994613182
+ W1_inf energy:          28.4717691151
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4704501683
+ Exchange-correlation energy:   -14.4868841709
+ Total energy:                 -162.3216176332
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy cycles exx: -162.3216176332 6 -14.0164340026
+ vol= 49.800265 A^3   E=  -0.01915251 au  cycles= 6
+ lat = 4.635400000  vol= 49.800265 A^3   E=  -0.01915251 au
+0
+refvol 37.415676
+parabola
+point 1: 37.415676 -0.02063389
+point 2: 32.079265 -0.01920939
+point 3: 49.800265 -0.01915251
+check_parabolic_convergence 40.866192 37.415676
+4.34 no
+FINAL RANGE: 4.34
+run_lat_range: storemin.ACM-genisi-metal-hpc.dat,yes
+
+>>>>> lat = 4.34 A
+run_at_lat: 4.34,4.34,yes,,
+run_program:,input,10,yes
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.34
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i input --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 13:27:49
+
+
+Program:  crystal
+Input file:  input
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8591097730
+ HF-exchange energy:    -14.0245812714
+ W_inf energy:          -23.4302256602
+ W1_inf energy:          28.6004058297
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4837499491
+ Exchange-correlation energy:   -14.5083312205
+ Total energy:                 -162.3428597221
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy vol cycles exx: -162.3428597221 40.873252 8 -14.0245812714
+run_program:,inputatom,10,yes
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.34/ATOM
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i inputatom --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 13:34:12
+
+
+Program:  crystal
+Input file:  inputatom
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8517589126
+ HF-exchange energy:    -14.0160564516
+ W_inf energy:          -23.2986926920
+ W1_inf energy:          28.4710865695
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4704157035
+ Exchange-correlation energy:   -14.4864721550
+ Total energy:                 -162.3221746161
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy cycles exx: -162.3221746161 6 -14.0160564516
+ vol= 40.873252 A^3   E=  -0.02068511 au  cycles= 8
+ lat = 4.34  vol= 40.873252 A^3   E=  -0.02068511 au
+parabola
+point 1: 40.873252 -0.02068511
+point 2: 37.415676 -0.02063389
+point 3: 32.079265 -0.01920939
+check_parabolic_convergence 39.402813 40.866192
+4.29 no
+FINAL RANGE: 4.29
+run_lat_range: storemin.ACM-genisi-metal-hpc.dat,yes
+
+>>>>> lat = 4.29 A
+run_at_lat: 4.29,4.29,yes,4.34 ,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.34
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.34 as starting guess
+run_program:,input,10,yes
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.29
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i input --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 13:35:32
+
+
+Program:  crystal
+Input file:  input
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8588919782
+ HF-exchange energy:    -14.0263867192
+ W_inf energy:          -23.4356292408
+ W1_inf energy:          28.6070436984
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4840595727
+ Exchange-correlation energy:   -14.5104462919
+ Total energy:                 -162.3429515509
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy vol cycles exx: -162.3429515509 39.476795 5 -14.0263867192
+run_program:,inputatom,10,yes
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.29/ATOM
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i inputatom --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 13:39:47
+
+
+Program:  crystal
+Input file:  inputatom
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8518131572
+ HF-exchange energy:    -14.0160337323
+ W_inf energy:          -23.2986362284
+ W1_inf energy:          28.4710303694
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4704126533
+ Exchange-correlation energy:   -14.4864463856
+ Total energy:                 -162.3222258106
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy cycles exx: -162.3222258106 6 -14.0160337323
+ vol= 39.476795 A^3   E=  -0.02072574 au  cycles= 5
+ lat = 4.29  vol= 39.476795 A^3   E=  -0.02072574 au
+parabola
+point 1: 39.476795 -0.02072574
+point 2: 40.873252 -0.02068511
+point 3: 37.415676 -0.02063389
+check_parabolic_convergence 39.492151 39.402813
+
+FINAL RUN: with 4.29052
+FACTRANGE: -.0204 -.0170 -.0136 -.0102 -.0068 -.0034 0.0 .0034 .0068 .0102 .0136 .0170 .0204
+LATRANGE: 4.20 4.22 4.23 4.25 4.26 4.28 4.29 4.31 4.32 4.33 4.35 4.36 4.38
+4.20 no
+4.22 yes 4.214000000
+4.23 no
+4.25 no
+4.26 no
+4.28 yes 4.29
+4.29 no
+4.31 no
+4.32 no
+4.33 yes 4.34
+4.35 yes 4.34
+4.36 no
+4.38 no
+FINAL RANGE: 4.20 4.214000000 4.23 4.25 4.26 4.29 4.31 4.32 4.34 4.36 4.38
+run_lat_range: store.ACM-genisi-metal-hpc.dat,no
+
+>>>>> lat = 4.20 A
+run_at_lat: 4.20,4.20,no,,
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.20
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i input --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 13:41:08
+
+
+Program:  crystal
+Input file:  input
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8582494230
+ HF-exchange energy:    -14.0297987693
+ W_inf energy:          -23.4458983760
+ W1_inf energy:          28.6198106812
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4846463716
+ Exchange-correlation energy:   -14.5144451409
+ Total energy:                 -162.3428957946
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy vol cycles exx: -162.3428957946 37.044000 12 -14.0297987693
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.20/ATOM
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i inputatom --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 13:50:21
+
+
+Program:  crystal
+Input file:  inputatom
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8518889772
+ HF-exchange energy:    -14.0160100002
+ W_inf energy:          -23.2985911000
+ W1_inf energy:          28.4709682950
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4704114684
+ Exchange-correlation energy:   -14.4864214686
+ Total energy:                 -162.3223004456
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy cycles exx: -162.3223004456 8 -14.0160100002
+ vol= 37.044000 A^3   E=  -0.02059535 au  cycles= 12
+ lat = 4.20  vol= 37.044000 A^3   E=  -0.02059535 au
+
+>>>>> lat = 4.214000000 A
+run_at_lat: 4.214000000,4.214000000,no,4.20,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.20
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.214000000
+ TOLDEE differs  7 9
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i input --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 13:52:02
+
+
+Program:  crystal
+Input file:  input
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  True
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8583716353
+ HF-exchange energy:    -14.0292536710
+ W_inf energy:          -23.4442515150
+ W1_inf energy:          28.6177516072
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4845523009
+ Exchange-correlation energy:   -14.5138059719
+ Total energy:                 -162.3429239362
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy vol cycles exx: -162.3429239362 37.415676 3 -14.0292536710
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.214000000/ATOM
+ TOLDEE differs  7 9
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i inputatom --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 13:54:52
+
+
+Program:  crystal
+Input file:  inputatom
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  True
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8518787912
+ HF-exchange energy:    -14.0160138782
+ W_inf energy:          -23.2985953308
+ W1_inf energy:          28.4709774426
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4704112578
+ Exchange-correlation energy:   -14.4864251360
+ Total energy:                 -162.3222900490
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy cycles exx: -162.3222900490 2 -14.0160138782
+ vol= 37.415676 A^3   E=  -0.02063389 au  cycles= 3
+ lat = 4.214000000  vol= 37.415676 A^3   E=  -0.02063389 au
+
+>>>>> lat = 4.23 A
+run_at_lat: 4.23,4.23,no,4.214000000,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.214000000
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.214000000 as starting guess
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.23
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i input --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 13:55:30
+
+
+Program:  crystal
+Input file:  input
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8585010147
+ HF-exchange energy:    -14.0286371607
+ W_inf energy:          -23.4423945283
+ W1_inf energy:          28.6154331066
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4844463968
+ Exchange-correlation energy:   -14.5130835575
+ Total energy:                 -162.3429474115
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy vol cycles exx: -162.3429474115 37.843484 7 -14.0286371607
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.23/ATOM
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i inputatom --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 14:01:07
+
+
+Program:  crystal
+Input file:  inputatom
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8518664722
+ HF-exchange energy:    -14.0160154702
+ W_inf energy:          -23.2986047029
+ W1_inf energy:          28.4709805422
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4704122403
+ Exchange-correlation energy:   -14.4864277105
+ Total energy:                 -162.3222787125
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy cycles exx: -162.3222787125 8 -14.0160154702
+ vol= 37.843484 A^3   E=  -0.02066870 au  cycles= 7
+ lat = 4.23  vol= 37.843484 A^3   E=  -0.02066870 au
+
+>>>>> lat = 4.25 A
+run_at_lat: 4.25,4.25,no,4.23,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.23
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.23 as starting guess
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.25
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i input --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 14:02:42
+
+
+Program:  crystal
+Input file:  input
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8586476165
+ HF-exchange energy:    -14.0278764060
+ W_inf energy:          -23.4401045264
+ W1_inf energy:          28.6125835217
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4843155963
+ Exchange-correlation energy:   -14.5121920023
+ Total energy:                 -162.3429632127
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy vol cycles exx: -162.3429632127 38.382813 7 -14.0278764060
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.25/ATOM
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i inputatom --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 14:08:19
+
+
+Program:  crystal
+Input file:  inputatom
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8518499982
+ HF-exchange energy:    -14.0160203885
+ W_inf energy:          -23.2986152317
+ W1_inf energy:          28.4710011322
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4704124288
+ Exchange-correlation energy:   -14.4864328173
+ Total energy:                 -162.3222624271
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy cycles exx: -162.3222624271 8 -14.0160203885
+ vol= 38.382813 A^3   E=  -0.02070079 au  cycles= 7
+ lat = 4.25  vol= 38.382813 A^3   E=  -0.02070079 au
+
+>>>>> lat = 4.26 A
+run_at_lat: 4.26,4.26,no,4.25,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.25
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.25 as starting guess
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.26
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i input --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 14:10:50
+
+
+Program:  crystal
+Input file:  input
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8587147154
+ HF-exchange energy:    -14.0275000159
+ W_inf energy:          -23.4389718581
+ W1_inf energy:          28.6111783840
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4842507940
+ Exchange-correlation energy:   -14.5117508098
+ Total energy:                 -162.3429655094
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy vol cycles exx: -162.3429655094 38.654388 10 -14.0275000159
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.26/ATOM
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i inputatom --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 14:18:37
+
+
+Program:  crystal
+Input file:  inputatom
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8518412903
+ HF-exchange energy:    -14.0160232153
+ W_inf energy:          -23.2986200003
+ W1_inf energy:          28.4710144030
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4704123200
+ Exchange-correlation energy:   -14.4864355353
+ Total energy:                 -162.3222536103
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy cycles exx: -162.3222536103 8 -14.0160232153
+ vol= 38.654388 A^3   E=  -0.02071190 au  cycles= 10
+ lat = 4.26  vol= 38.654388 A^3   E=  -0.02071190 au
+
+>>>>> lat = 4.29 A
+run_at_lat: 4.29,4.29,no,4.26,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.26
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.29
+ TOLDEE differs  7 9
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i input --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 14:20:16
+
+
+Program:  crystal
+Input file:  input
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  True
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8588919798
+ HF-exchange energy:    -14.0263865679
+ W_inf energy:          -23.4356288261
+ W1_inf energy:          28.6070430086
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4840595559
+ Exchange-correlation energy:   -14.5104461238
+ Total energy:                 -162.3429515357
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy vol cycles exx: -162.3429515357 39.476795 4 -14.0263865679
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.29/ATOM
+ TOLDEE differs  7 9
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i inputatom --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 14:23:50
+
+
+Program:  crystal
+Input file:  inputatom
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  True
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8518131575
+ HF-exchange energy:    -14.0160345746
+ W_inf energy:          -23.2986390738
+ W1_inf energy:          28.4710376686
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4704127221
+ Exchange-correlation energy:   -14.4864472967
+ Total energy:                 -162.3222258796
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy cycles exx: -162.3222258796 2 -14.0160345746
+ vol= 39.476795 A^3   E=  -0.02072566 au  cycles= 4
+ lat = 4.29  vol= 39.476795 A^3   E=  -0.02072566 au
+
+>>>>> lat = 4.31 A
+run_at_lat: 4.31,4.31,no,4.29,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.29
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.29 as starting guess
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.31
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i input --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 14:24:30
+
+
+Program:  crystal
+Input file:  input
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8589905340
+ HF-exchange energy:    -14.0256571171
+ W_inf energy:          -23.4334445279
+ W1_inf energy:          28.6043513635
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4839345827
+ Exchange-correlation energy:   -14.5095916999
+ Total energy:                 -162.3429251168
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy vol cycles exx: -162.3429251168 40.031495 7 -14.0256571171
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.31/ATOM
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i inputatom --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 14:30:12
+
+
+Program:  crystal
+Input file:  inputatom
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8517926199
+ HF-exchange energy:    -14.0160416748
+ W_inf energy:          -23.2986549769
+ W1_inf energy:          28.4710599626
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4704133015
+ Exchange-correlation energy:   -14.4864549764
+ Total energy:                 -162.3222059214
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy cycles exx: -162.3222059214 8 -14.0160416748
+ vol= 40.031495 A^3   E=  -0.02071920 au  cycles= 7
+ lat = 4.31  vol= 40.031495 A^3   E=  -0.02071920 au
+
+>>>>> lat = 4.32 A
+run_at_lat: 4.32,4.32,no,4.31,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.31
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.31 as starting guess
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.32
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i input --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 14:31:51
+
+
+Program:  crystal
+Input file:  input
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8590340412
+ HF-exchange energy:    -14.0252960785
+ W_inf energy:          -23.4323626225
+ W1_inf energy:          28.6030233156
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4838724988
+ Exchange-correlation energy:   -14.5091685773
+ Total energy:                 -162.3429065401
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy vol cycles exx: -162.3429065401 40.310784 5 -14.0252960785
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.32/ATOM
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i inputatom --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 14:36:07
+
+
+Program:  crystal
+Input file:  inputatom
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8517817826
+ HF-exchange energy:    -14.0160463143
+ W_inf energy:          -23.2986653254
+ W1_inf energy:          28.4710689607
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4704138320
+ Exchange-correlation energy:   -14.4864601463
+ Total energy:                 -162.3221956146
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy cycles exx: -162.3221956146 8 -14.0160463143
+ vol= 40.310784 A^3   E=  -0.02071093 au  cycles= 5
+ lat = 4.32  vol= 40.310784 A^3   E=  -0.02071093 au
+
+>>>>> lat = 4.34 A
+run_at_lat: 4.34,4.34,no,4.32,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.32
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.34
+ TOLDEE differs  7 9
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i input --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 14:37:45
+
+
+Program:  crystal
+Input file:  input
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  True
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8591097751
+ HF-exchange energy:    -14.0245815351
+ W_inf energy:          -23.4302256962
+ W1_inf energy:          28.6004056972
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4837499212
+ Exchange-correlation energy:   -14.5083314563
+ Total energy:                 -162.3428596963
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy vol cycles exx: -162.3428596963 40.873252 4 -14.0245815351
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.34/ATOM
+ TOLDEE differs  7 9
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i inputatom --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 14:41:20
+
+
+Program:  crystal
+Input file:  inputatom
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  True
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8517589130
+ HF-exchange energy:    -14.0160577704
+ W_inf energy:          -23.2986963002
+ W1_inf energy:          28.4710954171
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4704157678
+ Exchange-correlation energy:   -14.4864735381
+ Total energy:                 -162.3221746807
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy cycles exx: -162.3221746807 2 -14.0160577704
+ vol= 40.873252 A^3   E=  -0.02068502 au  cycles= 4
+ lat = 4.34  vol= 40.873252 A^3   E=  -0.02068502 au
+
+>>>>> lat = 4.36 A
+run_at_lat: 4.36,4.36,no,4.34,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.34
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.34 as starting guess
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.36
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i input --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 14:41:58
+
+
+Program:  crystal
+Input file:  input
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8591707176
+ HF-exchange energy:    -14.0238766571
+ W_inf energy:          -23.4281249336
+ W1_inf energy:          28.5978383747
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4836295898
+ Exchange-correlation energy:   -14.5075062469
+ Total energy:                 -162.3428003074
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy vol cycles exx: -162.3428003074 41.440928 7 -14.0238766571
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.36/ATOM
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i inputatom --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 14:47:39
+
+
+Program:  crystal
+Input file:  inputatom
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8517343695
+ HF-exchange energy:    -14.0160681692
+ W_inf energy:          -23.2987196595
+ W1_inf energy:          28.4711150420
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4704169948
+ Exchange-correlation energy:   -14.4864851640
+ Total energy:                 -162.3221513643
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy cycles exx: -162.3221513643 8 -14.0160681692
+ vol= 41.440928 A^3   E=  -0.02064894 au  cycles= 7
+ lat = 4.36  vol= 41.440928 A^3   E=  -0.02064894 au
+
+>>>>> lat = 4.38 A
+run_at_lat: 4.38,4.38,no,4.36,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.36
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.36 as starting guess
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.38
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i input --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 14:49:22
+
+
+Program:  crystal
+Input file:  input
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8592171292
+ HF-exchange energy:    -14.0231812569
+ W_inf energy:          -23.4260574289
+ W1_inf energy:          28.5953195151
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4835111785
+ Exchange-correlation energy:   -14.5066924354
+ Total energy:                 -162.3427283077
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy vol cycles exx: -162.3427283077 42.013836 7 -14.0231812569
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.38/ATOM
+ New calculation!
+ /home/users/fulvios/acmxc/cryslatt_github/acmxc.py -p crystal   -f genisi -i inputatom --metal -w hpc -n 10
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+             +-----------------------------+
+             |            ACMxc            |
+             | Perform HF-ACM calculations |
+             |                             |
+             +-----------------------------+
+
+22.11.2024 - 14:55:00
+
+
+Program:  crystal
+Input file:  inputatom
+Program's path:  /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+N. cpu:  10
+ACM model:  genisi
+  Ref: J. Chem. Phys. 159, 244111 (2023)
+W functional:  hpc
+  Ref: J. Chem. Theory Comput. 18, 5936 (2022)
+Rerun:  False
+W3/4 functional:  False
+Metal mode:  True
+
+Running SCF calculation...
+
+ SCF energy:           -161.8517080528
+ HF-exchange energy:    -14.0160812477
+ W_inf energy:          -23.2987557899
+ W1_inf energy:          28.4711356666
+ MP2 corr. energy:                -inf
+
+RESULTS:
+ Correlation energy:             -0.4704195819
+ Exchange-correlation energy:   -14.4865008295
+ Total energy:                 -162.3221276346
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+energy cycles exx: -162.3221276346 8 -14.0160812477
+ vol= 42.013836 A^3   E=  -0.02060067 au  cycles= 7
+ lat = 4.38  vol= 42.013836 A^3   E=  -0.02060067 au
+
+makefit() store.ACM-genisi-metal-hpc.dat > fitdiff.ACM-genisi-metal-hpc.out
+FIT store.ACM-genisi-metal-hpc.dat REF: 4.21400000 7.70000000 A2
+store.ACM-genisi-metal-hpc.dat :
+ 37.044000   -0.02059535 -162.3428957946 -162.3223004456 -14.0297987693 -14.0160100002 4.20
+ 37.415676   -0.02063389 -162.3429239362 -162.3222900490 -14.0292536710 -14.0160138782 4.214000000
+ 37.843484   -0.02066870 -162.3429474115 -162.3222787125 -14.0286371607 -14.0160154702 4.23
+ 38.382813   -0.02070079 -162.3429632127 -162.3222624271 -14.0278764060 -14.0160203885 4.25
+ 38.654388   -0.02071190 -162.3429655094 -162.3222536103 -14.0275000159 -14.0160232153 4.26
+ 39.476795   -0.02072566 -162.3429515357 -162.3222258796 -14.0263865679 -14.0160345746 4.29
+ 40.031495   -0.02071920 -162.3429251168 -162.3222059214 -14.0256571171 -14.0160416748 4.31
+ 40.310784   -0.02071093 -162.3429065401 -162.3221956146 -14.0252960785 -14.0160463143 4.32
+ 40.873252   -0.02068502 -162.3428596963 -162.3221746807 -14.0245815351 -14.0160577704 4.34
+ 41.440928   -0.02064894 -162.3428003074 -162.3221513643 -14.0238766571 -14.0160681692 4.36
+ 42.013836   -0.02060067 -162.3427283077 -162.3221276346 -14.0231812569 -14.0160812477 4.38
+ /usr/bin/python /home/users/fulvios/acmxc/cryslatt_github/fit.py store.ACM-genisi-metal-hpc.dat   4.21400000   7.70000000 A2 &> fitdiff.ACM-genisi-metal-hpc.out 
+0
+vol coe 39.454 0.56396979
+Lattice constant:    4.289   reference:   4.21400000   error:    0.075
+Bulk modulus: 7.12  reference:   7.70000000  error:    -0.58
+Cohesive energy:      0.56396979   reference:   1.11900000   error:    -0.55503021
+-0.02072566 39.476795
+-0.02072566 39.476795 7.7
+
+ +++++++++++++++++++++++++++++++++ SIMPLE FIT ++++++++++++++++++++++++++++++++++
+
+Method                E_0 (Ha)    V_0 (A^3)    B_0 (GPa)     B' (Ha/A^6)   Error
+--------------------------------------------------------------------------------
+Murnaghan                -0.0207255      39.454        7.11         2.83      8.75e-14
+Birch-Murnaghan          -0.0207255      39.454        7.12         2.83      8.34e-14
+Poirier-Tarantola        -0.0207255      39.454        7.11         2.56      8.49e-14
+Vinet                    -0.0207255      39.454        7.12         2.84      8.45e-14
+Birch-4th                -0.0207257      39.453        7.19         2.90      6.92e-14
+Birch-5th                -0.0207257      39.460        7.20         1.88      5.66e-14
+Birch-6th                -0.0207260      39.456        7.43         2.52      3.21e-14
+Stabilized-jell          -0.0207255      39.454        7.11         2.84      8.53e-14
+Fitted curves saved in file fit.dat
+
+ +++++++++++++++++++++++++++++++ WEIGHTED FIT ++++++++++++++++++++++++++++++++++
+
+Method                E_0 (Ha)    V_0 (A^3)    B_0 (GPa)     B' (Ha/A^6)   Error
+--------------------------------------------------------------------------------
+Murnaghan                -0.0207255      39.454        7.11         2.83      8.73e-14
+Birch-Murnaghan          -0.0207255      39.454        7.12         2.83      8.31e-14
+Poirier-Tarantola        -0.0207255      39.454        7.11         2.56      8.46e-14
+Vinet                    -0.0207255      39.454        7.12         2.84      8.43e-14
+Birch-4th                -0.0207257      39.453        7.19         2.90      6.90e-14
+Birch-5th                -0.0207257      39.460        7.20         1.87      5.63e-14
+Birch-6th                -0.0207260      39.456        7.43         2.51      3.20e-14
+Stabilized-jell          -0.0207255      39.454        7.11         2.83      8.51e-14
+Fitted curves saved in file wfit.dat
+
+makefit() store.ACM-genisi-metal-hpc.dat.tot > fittote.ACM-genisi-metal-hpc.out
+FIT store.ACM-genisi-metal-hpc.dat.tot REF: 4.21400000 7.70000000 A2
+store.ACM-genisi-metal-hpc.dat.tot :
+ 37.044000  -162.3428957946 4.20
+ 37.415676  -162.3429239362 4.214000000
+ 37.843484  -162.3429474115 4.23
+ 38.382813  -162.3429632127 4.25
+ 38.654388  -162.3429655094 4.26
+ 39.476795  -162.3429515357 4.29
+ 40.031495  -162.3429251168 4.31
+ 40.310784  -162.3429065401 4.32
+ 40.873252  -162.3428596963 4.34
+ 41.440928  -162.3428003074 4.36
+ 42.013836  -162.3427283077 4.38
+ /usr/bin/python /home/users/fulvios/acmxc/cryslatt_github/fit.py store.ACM-genisi-metal-hpc.dat.tot   4.21400000   7.70000000 A2 &> fittote.ACM-genisi-metal-hpc.out 
+0
+vol coe 38.702 -162.34296560
+Lattice constant:    4.262   reference:   4.21400000   error:    0.048
+Bulk modulus: 8.12  reference:   7.70000000  error:     0.42
+Total energy:   -162.34296560

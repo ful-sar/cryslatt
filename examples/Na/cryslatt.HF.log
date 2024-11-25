@@ -1,0 +1,1363 @@
+--------------------------CRYSLATT------------------------------
+Fri Nov 22 11:36:16 AM CET 2024
+cryslatt       
+HF
+reflat, latytp:    4.21400000 ,  A2
+
+Minimization Procedure: yes 
+HF force LargeGuess=true
+LargeLattice Guess: yes
+Initial Guess using:  4.4247000000 4.635400000 4.8461000000
+run_lat_range: storemin.HF.dat,no
+
+>>>>> lat = 4.4247000000 A
+run_at_lat: 4.4247000000,4.4247000000,no,,
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 input ===> 
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p690472_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+Pcrystal job running in /home/scratch/fulvios/tmp_p690472_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.f98
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p690472_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.d3
+creating temporary directory /home/scratch/fulvios/tmp_p691291_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.f98
+properties job running in /home/scratch/fulvios/tmp_p691291_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p691291_fulvios from each node
+energy vol cycles exx: -1.6185926974150E+02 43.313322 7 -1.4021660349544E+01
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 inputatom ===> 
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p691372_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+Pcrystal job running in /home/scratch/fulvios/tmp_p691372_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.f98
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p691372_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.d3
+creating temporary directory /home/scratch/fulvios/tmp_p691563_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.f98
+properties job running in /home/scratch/fulvios/tmp_p691563_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p691563_fulvios from each node
+energy cycles exx: -1.6185164229385E+02 6 -1.4016117746593E+01
+ vol= 43.313322 A^3   E=  -0.00762745 au  cycles= 7
+ lat = 4.4247000000  vol= 43.313322 A^3   E=  -0.00762745 au
+
+>>>>> lat = 4.635400000 A
+run_at_lat: 4.635400000,4.635400000,no,4.4247000000,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000 as starting guess
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 input input ===>
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/input.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/input.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p691655_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+ COPYING f9 file
+scf guess from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/input.f9
+Pcrystal job running in /home/scratch/fulvios/tmp_p691655_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/input.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/input.f98
+file fort.20 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/input.f20
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p691655_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/input.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/input.d3
+creating temporary directory /home/scratch/fulvios/tmp_p692295_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/input.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/input.f98
+properties job running in /home/scratch/fulvios/tmp_p692295_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/input.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/input.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p692295_fulvios from each node
+energy vol cycles exx: -1.6185862573553E+02 49.800265 6 -1.4015066406730E+01
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/ATOM
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 inputatom ===> 
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/ATOM/inputatom.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/ATOM/inputatom.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p692376_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+Pcrystal job running in /home/scratch/fulvios/tmp_p692376_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/ATOM/inputatom.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/ATOM/inputatom.f98
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p692376_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/ATOM/inputatom.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/ATOM/inputatom.d3
+creating temporary directory /home/scratch/fulvios/tmp_p692563_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/ATOM/inputatom.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/ATOM/inputatom.f98
+properties job running in /home/scratch/fulvios/tmp_p692563_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/ATOM/inputatom.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000/ATOM/inputatom.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p692563_fulvios from each node
+energy cycles exx: -1.6185116746496E+02 6 -1.4016434002647E+01
+ vol= 49.800265 A^3   E=  -0.00745827 au  cycles= 6
+ lat = 4.635400000  vol= 49.800265 A^3   E=  -0.00745827 au
+
+>>>>> lat = 4.8461000000 A
+run_at_lat: 4.8461000000,4.8461000000,no,4.635400000,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.635400000 as starting guess
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 input input ===>
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/input.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/input.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p692666_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+ COPYING f9 file
+scf guess from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/input.f9
+Pcrystal job running in /home/scratch/fulvios/tmp_p692666_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/input.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/input.f98
+file fort.20 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/input.f20
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p692666_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/input.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/input.d3
+creating temporary directory /home/scratch/fulvios/tmp_p693279_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/input.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/input.f98
+properties job running in /home/scratch/fulvios/tmp_p693279_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/input.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/input.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p693279_fulvios from each node
+energy vol cycles exx: -1.6185658326052E+02 56.904566 6 -1.4009315528456E+01
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/ATOM
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 inputatom ===> 
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/ATOM/inputatom.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/ATOM/inputatom.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p693373_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+Pcrystal job running in /home/scratch/fulvios/tmp_p693373_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/ATOM/inputatom.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/ATOM/inputatom.f98
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p693373_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/ATOM/inputatom.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/ATOM/inputatom.d3
+creating temporary directory /home/scratch/fulvios/tmp_p693671_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/ATOM/inputatom.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/ATOM/inputatom.f98
+properties job running in /home/scratch/fulvios/tmp_p693671_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/ATOM/inputatom.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.8461000000/ATOM/inputatom.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p693671_fulvios from each node
+energy cycles exx: -1.6185030915104E+02 6 -1.4017109519488E+01
+ vol= 56.904566 A^3   E=  -0.00627411 au  cycles= 6
+ lat = 4.8461000000  vol= 56.904566 A^3   E=  -0.00627411 au
+0
+refvol 37.415676
+parabola
+point 1: 43.313322 -0.00762745
+point 2: 49.800265 -0.00745827
+point 3: 56.904566 -0.00627411
+check_parabolic_convergence 45.296283 37.415676
+4.49 no
+FINAL RANGE: 4.49
+run_lat_range: storemin.HF.dat,yes
+
+>>>>> lat = 4.49 A
+run_at_lat: 4.49,4.49,yes,,
+run_program:,input,10,yes
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 input ===> 
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p694439_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+Pcrystal job running in /home/scratch/fulvios/tmp_p694439_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.f98
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p694439_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.d3
+creating temporary directory /home/scratch/fulvios/tmp_p695294_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.f98
+properties job running in /home/scratch/fulvios/tmp_p695294_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p695294_fulvios from each node
+energy vol cycles exx: -1.6185922405515E+02 45.259425 6 -1.4019516902728E+01
+run_program:,inputatom,10,yes
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 inputatom ===> 
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p695376_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+Pcrystal job running in /home/scratch/fulvios/tmp_p695376_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.f98
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p695376_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.d3
+creating temporary directory /home/scratch/fulvios/tmp_p695726_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.f98
+properties job running in /home/scratch/fulvios/tmp_p695726_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p695726_fulvios from each node
+energy cycles exx: -1.6185152684774E+02 6 -1.4016187632627E+01
+ vol= 45.259425 A^3   E=  -0.00769721 au  cycles= 6
+ lat = 4.49  vol= 45.259425 A^3   E=  -0.00769721 au
+parabola
+point 1: 45.259425 -0.00769721
+point 2: 43.313322 -0.00762745
+point 3: 49.800265 -0.00745827
+check_parabolic_convergence 45.600609 45.296283
+
+FINAL RUN: with 4.50122
+FACTRANGE: -.0204 -.0170 -.0136 -.0102 -.0068 -.0034 0.0 .0034 .0068 .0102 .0136 .0170 .0204
+LATRANGE: 4.41 4.42 4.44 4.46 4.47 4.49 4.50 4.52 4.53 4.55 4.56 4.58 4.59
+4.41 no
+4.42 yes 4.4247000000
+4.44 no
+4.46 no
+4.47 no
+4.49 no
+4.50 yes 4.49
+4.52 no
+4.53 no
+4.55 no
+4.56 no
+4.58 no
+4.59 no
+FINAL RANGE: 4.41 4.4247000000 4.44 4.46 4.47 4.49 4.52 4.53 4.55 4.56 4.58 4.59
+run_lat_range: store.HF.dat,no
+
+>>>>> lat = 4.41 A
+run_at_lat: 4.41,4.41,no,,
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 input ===> 
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/input.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/input.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p696185_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+Pcrystal job running in /home/scratch/fulvios/tmp_p696185_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/input.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/input.f98
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p696185_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/input.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/input.d3
+creating temporary directory /home/scratch/fulvios/tmp_p696982_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/input.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/input.f98
+properties job running in /home/scratch/fulvios/tmp_p696982_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/input.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/input.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p696982_fulvios from each node
+energy vol cycles exx: -1.6185926011020E+02 42.883061 8 -1.4022155606664E+01
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/ATOM
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 inputatom ===> 
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/ATOM/inputatom.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/ATOM/inputatom.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p697063_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+Pcrystal job running in /home/scratch/fulvios/tmp_p697063_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/ATOM/inputatom.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/ATOM/inputatom.f98
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p697063_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/ATOM/inputatom.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/ATOM/inputatom.d3
+creating temporary directory /home/scratch/fulvios/tmp_p697284_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/ATOM/inputatom.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/ATOM/inputatom.f98
+properties job running in /home/scratch/fulvios/tmp_p697284_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/ATOM/inputatom.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41/ATOM/inputatom.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p697284_fulvios from each node
+energy cycles exx: -1.6185166502694E+02 8 -1.4016103848635E+01
+ vol= 42.883061 A^3   E=  -0.00759508 au  cycles= 8
+ lat = 4.41  vol= 42.883061 A^3   E=  -0.00759508 au
+
+>>>>> lat = 4.4247000000 A
+run_at_lat: 4.4247000000,4.4247000000,no,4.41,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.41
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000
+ already done and converged in  7 cycles
+ TOLDEE differs  7 9
+ rerun:
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 input input ===>
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p697429_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+ COPYING f9 file
+scf guess from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.f9
+file fort.13 from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.f13
+Pcrystal job running in /home/scratch/fulvios/tmp_p697429_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.f13
+file fort.20 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.f20
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p697429_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.d3
+creating temporary directory /home/scratch/fulvios/tmp_p698009_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.f98
+properties job running in /home/scratch/fulvios/tmp_p698009_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/input.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p698009_fulvios from each node
+energy vol cycles exx: -1.6185926973138E+02 43.313322 4 -1.4021660512097E+01
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM
+ already done and converged in  6 cycles
+ TOLDEE differs  7 9
+ rerun:
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 inputatom inputatom ===>
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p698114_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+ COPYING f9 file
+scf guess from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.f9
+file fort.13 from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.f13
+Pcrystal job running in /home/scratch/fulvios/tmp_p698114_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.f13
+file fort.20 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.f20
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p698114_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.d3
+creating temporary directory /home/scratch/fulvios/tmp_p698248_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.f98
+properties job running in /home/scratch/fulvios/tmp_p698248_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000/ATOM/inputatom.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p698248_fulvios from each node
+energy cycles exx: -1.6185164229412E+02 2 -1.4016117101077E+01
+ vol= 43.313322 A^3   E=  -0.00762744 au  cycles= 4
+ lat = 4.4247000000  vol= 43.313322 A^3   E=  -0.00762744 au
+
+>>>>> lat = 4.44 A
+run_at_lat: 4.44,4.44,no,4.4247000000,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.4247000000 as starting guess
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 input input ===>
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/input.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/input.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p698339_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+ COPYING f9 file
+scf guess from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/input.f9
+Pcrystal job running in /home/scratch/fulvios/tmp_p698339_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/input.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/input.f98
+file fort.20 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/input.f20
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p698339_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/input.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/input.d3
+creating temporary directory /home/scratch/fulvios/tmp_p699660_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/input.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/input.f98
+properties job running in /home/scratch/fulvios/tmp_p699660_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/input.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/input.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p699660_fulvios from each node
+energy vol cycles exx: -1.6185927188958E+02 43.764192 5 -1.4021150354080E+01
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/ATOM
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 inputatom ===> 
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/ATOM/inputatom.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/ATOM/inputatom.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p699753_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+Pcrystal job running in /home/scratch/fulvios/tmp_p699753_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/ATOM/inputatom.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/ATOM/inputatom.f98
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p699753_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/ATOM/inputatom.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/ATOM/inputatom.d3
+creating temporary directory /home/scratch/fulvios/tmp_p700139_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/ATOM/inputatom.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/ATOM/inputatom.f98
+properties job running in /home/scratch/fulvios/tmp_p700139_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/ATOM/inputatom.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44/ATOM/inputatom.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p700139_fulvios from each node
+energy cycles exx: -1.6185161741753E+02 8 -1.4016130409716E+01
+ vol= 43.764192 A^3   E=  -0.00765447 au  cycles= 5
+ lat = 4.44  vol= 43.764192 A^3   E=  -0.00765447 au
+
+>>>>> lat = 4.46 A
+run_at_lat: 4.46,4.46,no,4.44,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.44 as starting guess
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 input input ===>
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/input.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/input.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p700234_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+ COPYING f9 file
+scf guess from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/input.f9
+Pcrystal job running in /home/scratch/fulvios/tmp_p700234_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/input.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/input.f98
+file fort.20 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/input.f20
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p700234_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/input.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/input.d3
+creating temporary directory /home/scratch/fulvios/tmp_p700772_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/input.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/input.f98
+properties job running in /home/scratch/fulvios/tmp_p700772_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/input.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/input.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p700772_fulvios from each node
+energy vol cycles exx: -1.6185926275281E+02 44.358268 5 -1.4020491171689E+01
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/ATOM
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 inputatom ===> 
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/ATOM/inputatom.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/ATOM/inputatom.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p700853_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+Pcrystal job running in /home/scratch/fulvios/tmp_p700853_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/ATOM/inputatom.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/ATOM/inputatom.f98
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p700853_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/ATOM/inputatom.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/ATOM/inputatom.d3
+creating temporary directory /home/scratch/fulvios/tmp_p701117_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/ATOM/inputatom.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/ATOM/inputatom.f98
+properties job running in /home/scratch/fulvios/tmp_p701117_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/ATOM/inputatom.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46/ATOM/inputatom.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p701117_fulvios from each node
+energy cycles exx: -1.6185158294535E+02 8 -1.4016150469175E+01
+ vol= 44.358268 A^3   E=  -0.00767981 au  cycles= 5
+ lat = 4.46  vol= 44.358268 A^3   E=  -0.00767981 au
+
+>>>>> lat = 4.47 A
+run_at_lat: 4.47,4.47,no,4.46,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.46 as starting guess
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 input input ===>
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/input.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/input.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p701851_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+ COPYING f9 file
+scf guess from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/input.f9
+Pcrystal job running in /home/scratch/fulvios/tmp_p701851_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/input.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/input.f98
+file fort.20 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/input.f20
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p701851_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/input.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/input.d3
+creating temporary directory /home/scratch/fulvios/tmp_p702733_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/input.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/input.f98
+properties job running in /home/scratch/fulvios/tmp_p702733_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/input.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/input.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p702733_fulvios from each node
+energy vol cycles exx: -1.6185925316195E+02 44.657311 5 -1.4020164869749E+01
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/ATOM
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 inputatom ===> 
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/ATOM/inputatom.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/ATOM/inputatom.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p702814_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+Pcrystal job running in /home/scratch/fulvios/tmp_p702814_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/ATOM/inputatom.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/ATOM/inputatom.f98
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p702814_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/ATOM/inputatom.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/ATOM/inputatom.d3
+creating temporary directory /home/scratch/fulvios/tmp_p703037_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/ATOM/inputatom.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/ATOM/inputatom.f98
+properties job running in /home/scratch/fulvios/tmp_p703037_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/ATOM/inputatom.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47/ATOM/inputatom.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p703037_fulvios from each node
+energy cycles exx: -1.6185156484623E+02 8 -1.4016161516203E+01
+ vol= 44.657311 A^3   E=  -0.00768832 au  cycles= 5
+ lat = 4.47  vol= 44.657311 A^3   E=  -0.00768832 au
+
+>>>>> lat = 4.49 A
+run_at_lat: 4.49,4.49,no,4.47,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.47
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49
+ already done and converged in  6 cycles
+ TOLDEE differs  7 9
+ rerun:
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 input input ===>
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p703171_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+ COPYING f9 file
+scf guess from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.f9
+file fort.13 from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.f13
+Pcrystal job running in /home/scratch/fulvios/tmp_p703171_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.f13
+file fort.20 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.f20
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p703171_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.d3
+creating temporary directory /home/scratch/fulvios/tmp_p703651_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.f98
+properties job running in /home/scratch/fulvios/tmp_p703651_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/input.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p703651_fulvios from each node
+energy vol cycles exx: -1.6185922404632E+02 45.259425 4 -1.4019518714097E+01
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM
+ already done and converged in  6 cycles
+ TOLDEE differs  7 9
+ rerun:
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 inputatom inputatom ===>
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p703756_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+ COPYING f9 file
+scf guess from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.f9
+file fort.13 from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.f13
+Pcrystal job running in /home/scratch/fulvios/tmp_p703756_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.f13
+file fort.20 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.f20
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p703756_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.d3
+creating temporary directory /home/scratch/fulvios/tmp_p703882_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.f98
+properties job running in /home/scratch/fulvios/tmp_p703882_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49/ATOM/inputatom.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p703882_fulvios from each node
+energy cycles exx: -1.6185152684797E+02 2 -1.4016184541752E+01
+ vol= 45.259425 A^3   E=  -0.00769720 au  cycles= 4
+ lat = 4.49  vol= 45.259425 A^3   E=  -0.00769720 au
+
+>>>>> lat = 4.52 A
+run_at_lat: 4.52,4.52,no,4.49,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.49 as starting guess
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 input input ===>
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/input.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/input.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p703974_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+ COPYING f9 file
+scf guess from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/input.f9
+Pcrystal job running in /home/scratch/fulvios/tmp_p703974_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/input.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/input.f98
+file fort.20 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/input.f20
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p703974_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/input.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/input.d3
+creating temporary directory /home/scratch/fulvios/tmp_p704650_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/input.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/input.f98
+properties job running in /home/scratch/fulvios/tmp_p704650_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/input.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/input.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p704650_fulvios from each node
+energy vol cycles exx: -1.6185915583469E+02 46.172704 5 -1.4018565273819E+01
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/ATOM
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 inputatom ===> 
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/ATOM/inputatom.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/ATOM/inputatom.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p704744_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+Pcrystal job running in /home/scratch/fulvios/tmp_p704744_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/ATOM/inputatom.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/ATOM/inputatom.f98
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p704744_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/ATOM/inputatom.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/ATOM/inputatom.d3
+creating temporary directory /home/scratch/fulvios/tmp_p704973_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/ATOM/inputatom.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/ATOM/inputatom.f98
+properties job running in /home/scratch/fulvios/tmp_p704973_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/ATOM/inputatom.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52/ATOM/inputatom.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p704973_fulvios from each node
+energy cycles exx: -1.6185146512303E+02 8 -1.4016223176256E+01
+ vol= 46.172704 A^3   E=  -0.00769071 au  cycles= 5
+ lat = 4.52  vol= 46.172704 A^3   E=  -0.00769071 au
+
+>>>>> lat = 4.53 A
+run_at_lat: 4.53,4.53,no,4.52,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.52 as starting guess
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 input input ===>
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/input.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/input.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p705076_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+ COPYING f9 file
+scf guess from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/input.f9
+Pcrystal job running in /home/scratch/fulvios/tmp_p705076_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/input.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/input.f98
+file fort.20 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/input.f20
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p705076_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/input.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/input.d3
+creating temporary directory /home/scratch/fulvios/tmp_p705627_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/input.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/input.f98
+properties job running in /home/scratch/fulvios/tmp_p705627_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/input.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/input.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p705627_fulvios from each node
+energy vol cycles exx: -1.6185912662198E+02 46.479838 5 -1.4018251495265E+01
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/ATOM
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 inputatom ===> 
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/ATOM/inputatom.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/ATOM/inputatom.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p705712_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+Pcrystal job running in /home/scratch/fulvios/tmp_p705712_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/ATOM/inputatom.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/ATOM/inputatom.f98
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p705712_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/ATOM/inputatom.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/ATOM/inputatom.d3
+creating temporary directory /home/scratch/fulvios/tmp_p706161_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/ATOM/inputatom.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/ATOM/inputatom.f98
+properties job running in /home/scratch/fulvios/tmp_p706161_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/ATOM/inputatom.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53/ATOM/inputatom.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p706161_fulvios from each node
+energy cycles exx: -1.6185144322549E+02 8 -1.4016237222280E+01
+ vol= 46.479838 A^3   E=  -0.00768340 au  cycles= 5
+ lat = 4.53  vol= 46.479838 A^3   E=  -0.00768340 au
+
+>>>>> lat = 4.55 A
+run_at_lat: 4.55,4.55,no,4.53,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.53 as starting guess
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 input input ===>
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/input.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/input.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p706267_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+ COPYING f9 file
+scf guess from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/input.f9
+Pcrystal job running in /home/scratch/fulvios/tmp_p706267_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/input.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/input.f98
+file fort.20 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/input.f20
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p706267_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/input.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/input.d3
+creating temporary directory /home/scratch/fulvios/tmp_p707616_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/input.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/input.f98
+properties job running in /home/scratch/fulvios/tmp_p707616_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/input.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/input.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p707616_fulvios from each node
+energy vol cycles exx: -1.6185905858032E+02 47.098188 5 -1.4017630218154E+01
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/ATOM
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 inputatom ===> 
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/ATOM/inputatom.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/ATOM/inputatom.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p707697_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+Pcrystal job running in /home/scratch/fulvios/tmp_p707697_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/ATOM/inputatom.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/ATOM/inputatom.f98
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p707697_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/ATOM/inputatom.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/ATOM/inputatom.d3
+creating temporary directory /home/scratch/fulvios/tmp_p708045_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/ATOM/inputatom.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/ATOM/inputatom.f98
+properties job running in /home/scratch/fulvios/tmp_p708045_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/ATOM/inputatom.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55/ATOM/inputatom.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p708045_fulvios from each node
+energy cycles exx: -1.6185139735176E+02 8 -1.4016267178251E+01
+ vol= 47.098188 A^3   E=  -0.00766123 au  cycles= 5
+ lat = 4.55  vol= 47.098188 A^3   E=  -0.00766123 au
+
+>>>>> lat = 4.56 A
+run_at_lat: 4.56,4.56,no,4.55,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.55 as starting guess
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 input input ===>
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/input.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/input.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p708146_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+ COPYING f9 file
+scf guess from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/input.f9
+Pcrystal job running in /home/scratch/fulvios/tmp_p708146_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/input.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/input.f98
+file fort.20 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/input.f20
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p708146_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/input.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/input.d3
+creating temporary directory /home/scratch/fulvios/tmp_p711447_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/input.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/input.f98
+properties job running in /home/scratch/fulvios/tmp_p711447_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/input.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/input.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p711447_fulvios from each node
+energy vol cycles exx: -1.6185901978600E+02 47.409408 7 -1.4017322631355E+01
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/ATOM
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 inputatom ===> 
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/ATOM/inputatom.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/ATOM/inputatom.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p711598_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+Pcrystal job running in /home/scratch/fulvios/tmp_p711598_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/ATOM/inputatom.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/ATOM/inputatom.f98
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p711598_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/ATOM/inputatom.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/ATOM/inputatom.d3
+creating temporary directory /home/scratch/fulvios/tmp_p712166_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/ATOM/inputatom.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/ATOM/inputatom.f98
+properties job running in /home/scratch/fulvios/tmp_p712166_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/ATOM/inputatom.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56/ATOM/inputatom.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p712166_fulvios from each node
+energy cycles exx: -1.6185137334348E+02 8 -1.4016283086941E+01
+ vol= 47.409408 A^3   E=  -0.00764644 au  cycles= 7
+ lat = 4.56  vol= 47.409408 A^3   E=  -0.00764644 au
+
+>>>>> lat = 4.58 A
+run_at_lat: 4.58,4.58,no,4.56,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.56 as starting guess
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 input input ===>
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/input.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/input.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p712260_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+ COPYING f9 file
+scf guess from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/input.f9
+Pcrystal job running in /home/scratch/fulvios/tmp_p712260_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/input.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/input.f98
+file fort.20 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/input.f20
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p712260_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/input.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/input.d3
+creating temporary directory /home/scratch/fulvios/tmp_p713218_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/input.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/input.f98
+properties job running in /home/scratch/fulvios/tmp_p713218_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/input.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/input.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p713218_fulvios from each node
+energy vol cycles exx: -1.6185893266193E+02 48.035956 7 -1.4016713371170E+01
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/ATOM
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 inputatom ===> 
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/ATOM/inputatom.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/ATOM/inputatom.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p713299_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+Pcrystal job running in /home/scratch/fulvios/tmp_p713299_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/ATOM/inputatom.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/ATOM/inputatom.f98
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p713299_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/ATOM/inputatom.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/ATOM/inputatom.d3
+creating temporary directory /home/scratch/fulvios/tmp_p713592_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/ATOM/inputatom.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/ATOM/inputatom.f98
+properties job running in /home/scratch/fulvios/tmp_p713592_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/ATOM/inputatom.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58/ATOM/inputatom.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p713592_fulvios from each node
+energy cycles exx: -1.6185132310269E+02 8 -1.4016316957690E+01
+ vol= 48.035956 A^3   E=  -0.00760956 au  cycles= 7
+ lat = 4.58  vol= 48.035956 A^3   E=  -0.00760956 au
+
+>>>>> lat = 4.59 A
+run_at_lat: 4.59,4.59,no,4.58,/home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58
+ using /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.58 as starting guess
+run_program:,input,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 input input ===>
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/input.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/input.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p713691_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+ COPYING f9 file
+scf guess from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/input.f9
+Pcrystal job running in /home/scratch/fulvios/tmp_p713691_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/input.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/input.f98
+file fort.20 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/input.f20
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p713691_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/input.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/input.d3
+creating temporary directory /home/scratch/fulvios/tmp_p714818_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/input.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/input.f98
+properties job running in /home/scratch/fulvios/tmp_p714818_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/input.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/input.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p714818_fulvios from each node
+energy vol cycles exx: -1.6185888438295E+02 48.351289 5 -1.4016411647287E+01
+run_program:,inputatom,10,no
+
+ Calculation in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/ATOM
+/home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/runPcry23 10 inputatom ===> 
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/ATOM/inputatom.out
+mpirun executable in /opt/intel/oneapi/mpi/2021.11/bin
+Pcrystal executable in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/ATOM/inputatom.d12
+file machines.LINUX in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23
+list of nodes in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/../utils23/nodes.par
+creating temporary directories /home/scratch/fulvios/tmp_p714899_fulvios on each node
+temporary dir created on superdome
+copying Pcrystal executable on each node
+copying input file on each node
+Pcrystal job running in /home/scratch/fulvios/tmp_p714899_fulvios on each node ...
+Running 10 tasks
+wave function binary file /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/ATOM/inputatom.f9
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/ATOM/inputatom.f98
+ls: No match.
+ls: No match.
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p714899_fulvios from each node
+output data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/ATOM/inputatom.outp
+properties in /home/atom/ATOMSOFT/CRYSTAL/NEWMPI/bin/Linux-ifort_i64/dev
+input data in /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/ATOM/inputatom.d3
+creating temporary directory /home/scratch/fulvios/tmp_p715176_fulvios
+wave function data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/ATOM/inputatom.f9
+wave function formatted data from /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/ATOM/inputatom.f98
+properties job running in /home/scratch/fulvios/tmp_p715176_fulvios ...
+file fort.98 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/ATOM/inputatom.f98
+file fort.13 saved as /home/users/fulvios/acmxc/cryslatt_github/Na_torino_HF/LAT_4.59/ATOM/inputatom.f13
+ls: No match.
+removing temporary directories /home/scratch/fulvios/tmp_p715176_fulvios from each node
+energy cycles exx: -1.6185129683730E+02 8 -1.4016334874481E+01
+ vol= 48.351289 A^3   E=  -0.00758755 au  cycles= 5
+ lat = 4.59  vol= 48.351289 A^3   E=  -0.00758755 au
+
+makefit() store.HF.dat > fitdiff.HF.out
+FIT store.HF.dat REF: 4.21400000 7.70000000 A2
+store.HF.dat :
+ 42.883061   -0.00759508 -1.6185926011020E+02 -1.6185166502694E+02 -1.4022155606664E+01 -1.4016103848635E+01 4.41
+ 43.313322   -0.00762744 -1.6185926973138E+02 -1.6185164229412E+02 -1.4021660512097E+01 -1.4016117101077E+01 4.4247000000
+ 43.764192   -0.00765447 -1.6185927188958E+02 -1.6185161741753E+02 -1.4021150354080E+01 -1.4016130409716E+01 4.44
+ 44.358268   -0.00767981 -1.6185926275281E+02 -1.6185158294535E+02 -1.4020491171689E+01 -1.4016150469175E+01 4.46
+ 44.657311   -0.00768832 -1.6185925316195E+02 -1.6185156484623E+02 -1.4020164869749E+01 -1.4016161516203E+01 4.47
+ 45.259425   -0.00769720 -1.6185922404632E+02 -1.6185152684797E+02 -1.4019518714097E+01 -1.4016184541752E+01 4.49
+ 46.172704   -0.00769071 -1.6185915583469E+02 -1.6185146512303E+02 -1.4018565273819E+01 -1.4016223176256E+01 4.52
+ 46.479838   -0.00768340 -1.6185912662198E+02 -1.6185144322549E+02 -1.4018251495265E+01 -1.4016237222280E+01 4.53
+ 47.098188   -0.00766123 -1.6185905858032E+02 -1.6185139735176E+02 -1.4017630218154E+01 -1.4016267178251E+01 4.55
+ 47.409408   -0.00764644 -1.6185901978600E+02 -1.6185137334348E+02 -1.4017322631355E+01 -1.4016283086941E+01 4.56
+ 48.035956   -0.00760956 -1.6185893266193E+02 -1.6185132310269E+02 -1.4016713371170E+01 -1.4016316957690E+01 4.58
+ 48.351289   -0.00758755 -1.6185888438295E+02 -1.6185129683730E+02 -1.4016411647287E+01 -1.4016334874481E+01 4.59
+ /usr/bin/python /home/users/fulvios/acmxc/cryslatt_github/fit.py store.HF.dat   4.21400000   7.70000000 A2 &> fitdiff.HF.out 
+0
+vol coe 45.462 0.20946788
+Lattice constant:    4.497   reference:   4.21400000   error:    0.283
+Bulk modulus: 5.68  reference:   7.70000000  error:    -2.02
+Cohesive energy:      0.20946788   reference:   1.11900000   error:    -0.90953212
+-0.0076972 45.259425
+-0.0076972 45.259425 7.7
+
+ +++++++++++++++++++++++++++++++++ SIMPLE FIT ++++++++++++++++++++++++++++++++++
+
+Method                E_0 (Ha)    V_0 (A^3)    B_0 (GPa)     B' (Ha/A^6)   Error
+--------------------------------------------------------------------------------
+Murnaghan                -0.0076978      45.462        5.67         2.91      6.24e-17
+Birch-Murnaghan          -0.0076978      45.462        5.68         2.91      3.67e-16
+Poirier-Tarantola        -0.0076978      45.462        5.68         2.61      2.43e-16
+Vinet                    -0.0076978      45.462        5.68         2.91      2.71e-16
+Birch-4th                -0.0076978      45.462        5.67         2.91      8.30e-18
+Birch-5th                -0.0076978      45.462        5.67         2.92      7.96e-18
+Birch-6th                -0.0076978      45.462        5.66         2.92      4.59e-18
+Stabilized-jell          -0.0076978      45.462        5.67         2.91      1.93e-16
+Fitted curves saved in file fit.dat
+
+ +++++++++++++++++++++++++++++++ WEIGHTED FIT ++++++++++++++++++++++++++++++++++
+
+Method                E_0 (Ha)    V_0 (A^3)    B_0 (GPa)     B' (Ha/A^6)   Error
+--------------------------------------------------------------------------------
+Murnaghan                -0.0076978      45.462        5.67         2.91      6.22e-17
+Birch-Murnaghan          -0.0076978      45.462        5.68         2.91      3.66e-16
+Poirier-Tarantola        -0.0076978      45.462        5.68         2.61      2.42e-16
+Vinet                    -0.0076978      45.462        5.68         2.91      2.70e-16
+Birch-4th                -0.0076978      45.462        5.67         2.91      8.25e-18
+Birch-5th                -0.0076978      45.462        5.67         2.92      7.90e-18
+Birch-6th                -0.0076978      45.462        5.66         2.92      4.56e-18
+Stabilized-jell          -0.0076978      45.462        5.67         2.91      1.92e-16
+Fitted curves saved in file wfit.dat
+
+makefit() store.HF.dat.tot > fittote.HF.out
+FIT store.HF.dat.tot REF: 4.21400000 7.70000000 A2
+store.HF.dat.tot :
+ 42.883061  -1.6185926011020E+02 4.41
+ 43.313322  -1.6185926973138E+02 4.4247000000
+ 43.764192  -1.6185927188958E+02 4.44
+ 44.358268  -1.6185926275281E+02 4.46
+ 44.657311  -1.6185925316195E+02 4.47
+ 45.259425  -1.6185922404632E+02 4.49
+ 46.172704  -1.6185915583469E+02 4.52
+ 46.479838  -1.6185912662198E+02 4.53
+ 47.098188  -1.6185905858032E+02 4.55
+ 47.409408  -1.6185901978600E+02 4.56
+ 48.035956  -1.6185893266193E+02 4.58
+ 48.351289  -1.6185888438295E+02 4.59
+ /usr/bin/python /home/users/fulvios/acmxc/cryslatt_github/fit.py store.HF.dat.tot   4.21400000   7.70000000 A2 &> fittote.HF.out 
+0
+vol coe 43.659 -161.85927200
+Lattice constant:    4.436   reference:   4.21400000   error:    0.222
+Bulk modulus: 7.34  reference:   7.70000000  error:    -0.36
+Total energy:   -161.85927200
