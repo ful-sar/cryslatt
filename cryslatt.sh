@@ -4,7 +4,6 @@
 # The script uses external programs such as acmxc, fit.py
 # The enviroment variables CRY23_UTILS, PYTHONBIN must be defined
 # The variable STORE must be modified
-#FU acmexe e fitexe devono contenere la path dei file: ma come? acmxc.py o ./acmxc.py
 cryslattdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 #set -x
@@ -51,7 +50,6 @@ fi
 # serial
 crystalseq="$crystalpath/runcry23"
 
-#echo "crystalexe" $crystalexe#FU CANCELLA
 ncpu=10
 
 # the environment variable PYTHONBIN, containing the path
@@ -74,7 +72,6 @@ forcedmetal="no"
 copyprev="yes"
 
 #-----options and arguments---------------
-#echo "reading commandline...."#FU CANCELLA
 while [ "$1" != "" ]; do
   if [ "$1" == "-f" ]; then
     shift
@@ -357,7 +354,7 @@ function run_program() {
 
 #    echo " $acmexe -f $acmformula -i $name $ssmm $ssrr -w $wfunc -n $rrcpu" | tee -a $LOGFILE
     echo " $acmexe -f $acmformula -i $name $ssmm -w $wfunc -n $rrcpu" | tee -a $LOGFILE
-#FU CONTROLLA QUESTA PARTE SU CORRELAZIONE
+
 # ATOM contains both calculation with --metal and without
 # - yesmp2.out is the exact computed MP2 value
 # - mp2.out contains the current one (computed or -inf)
