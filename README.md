@@ -5,3 +5,5 @@ It may be used for both Hartree-Fock (HF) or Density Functional Theory (DFT) cal
 Calculations are launched using the external Python script ACMxc (available here https://github.com/e-fabiano/acmxc).
 
 Further information can be found in the cryslatt_manual.pdf file
+
+Some examples are located in the examples directory
