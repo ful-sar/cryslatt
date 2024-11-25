@@ -1,1 +1,1 @@
-/home/users/fulvios/acmxc/cryslatt_github/cryslatt.sh -r Na_torino -acm genisi -forcedmetal -n 10
+cryslatt.sh -r Na -acm genisi -forcedmetal -n 10
