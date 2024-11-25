@@ -740,7 +740,7 @@ function run_lat_range() {
         exit 1
       fi
     fi
-#CONTROLLO QUESTA RIGA PERCHE' VOL NON HA VALORE
+
     echo " lat = $lat  vol= $volumebulk A^3   E= $energydiff au" >> $LOGFILE
 
 #non converged, do not use in prevdir
