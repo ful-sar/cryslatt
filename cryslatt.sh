@@ -895,7 +895,7 @@ function shrink_latrange() {
 #-----------------------------------------------------------------#
 
 echo "-----[ [ [ CRYSTAL LATTICE OPTIMIZATION ] ] ] ----"
-echo "        by F. Della Sala and E. Fabiano            "
+echo "        by F. Della Sala, E. Fabiano and F. Sarcinella"
 echo
 
 # read options and arguments
